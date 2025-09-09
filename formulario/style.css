@@ -12,6 +12,10 @@ form{
 .container-main{
     background-color: aqua;
     margin: 25px;
+    height: 725px;
+    width: 80%;
+    display: flex;
+    align-content: center;
 }
 
 h2{
@@ -22,8 +26,9 @@ h2{
     color: rgb(0, 0, 0);
 }
 
-.col-50{
-    width: 59px;
+.col-85{
+    width: 100%;
+    height: auto;
 }
 
 h2{
@@ -31,4 +36,9 @@ h2{
     margin: 0;
 }
 
+.btn{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 172, 0);
+}
 
