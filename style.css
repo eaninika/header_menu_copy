@@ -54,18 +54,22 @@ header{
     width: 100%'';
     display: flex;
     align-content: center;
-    justify-content: space-around;
     flex-direction: row;
+    padding: 5px;
 }
 
 .left75{
-    width: 75%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .right25{
-    width: 25%;
+    width: 35%;
     display: flex;
     align-content: center;
+    justify-content: center;
 }
 
 /* Daqui pra baixo é sobre o blocos*/
@@ -91,7 +95,6 @@ header{
 
 .bloco-1 img{
     width: 60%;
-    border-radius: 5px;
 }
 
 .bloco-2{
@@ -100,7 +103,8 @@ header{
 
 .bloco-2 img{
     width: 60%;
-    border-radius: 5px;
+    padding-top: 20px;
+
 }
 
 .bloco-3{
@@ -109,6 +113,5 @@ header{
 
 .bloco-3 img{
     width: 60%;
-    border-radius: 5px;
     
 }
