@@ -55,7 +55,7 @@ header{
     display: flex;
     align-content: center;
     flex-direction: row;
-    padding: 5px;
+    padding: 10px;
 }
 
 .left75{
@@ -82,6 +82,7 @@ header{
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    padding-top: 40px;
 }
 
 .container-bloco a{
@@ -95,6 +96,7 @@ header{
 
 .bloco-1 img{
     width: 60%;
+    border-radius: 6px;
 }
 
 .bloco-2{
@@ -103,8 +105,7 @@ header{
 
 .bloco-2 img{
     width: 60%;
-    padding-top: 20px;
-
+    border-radius: 6px;
 }
 
 .bloco-3{
@@ -113,5 +114,5 @@ header{
 
 .bloco-3 img{
     width: 60%;
-    
+    border-radius: 6px;
 }
