@@ -34,7 +34,7 @@ header{
 
 .header-links a{
     text-decoration: none;
-    color: aliceblue;
+    color: hwb(208 94% 0%);
 }
 
 .container{
@@ -45,7 +45,8 @@ header{
 
 .nav-container a{
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
     color: black;
     font-size: 20px;
 }
@@ -62,14 +63,17 @@ header{
     width: 65%;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.left75 input{
+    width: 300px;
 }
 
 .right25{
     width: 35%;
     display: flex;
-    align-content: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 /* Daqui pra baixo é sobre o blocos*/
@@ -85,8 +89,17 @@ header{
     padding-top: 40px;
 }
 
+.container-bloco h1{
+    font-family: "Bowlby One SC", sans-serif;
+}
+
 .container-bloco a{
     text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-family: "Bowlby One SC", sans-serif;
+}
+
+.container-bloco a:hover{
     color: black;
 }
 
@@ -115,4 +128,183 @@ header{
 .bloco-3 img{
     width: 60%;
     border-radius: 6px;
+}
+
+/* slideshow */
+
+.slideshow-title h2{
+    font-family: "Bowlby One SC", sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides{
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext1, .numbertext2, .numbertext3, .numbertext4, .numbertext5 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Podcasts */
+
+.podcast-container h2{
+    font-family: "Bowlby One SC", sans-serif;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    margin-left: 40px;
+}
+
+.podcast-main img{
+    width: 150px;
+}
+
+.podcast-main h3{
+    color: #313131;
+}
+
+.podcast-main h3:hover{
+    color: black;
+}
+
+.podcast-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Footer */
+footer{
+    background: #629bd3;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxs{
+    width: 320;
+    min-height: 150px;
+    color: black;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxs:nth-child(4){
+    width: 400px;
+}
+
+.boxs a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxs ul li{
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.boxs ul li a{
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxs ul li a:hover {
+    color: black;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials{
+    word-spacing: 10px;
+    font-size: 20px;
+    padding: 25px;
 }

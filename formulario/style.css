@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(0, 255, 13);
+    background-color: aliceblue;
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -40,3 +40,125 @@ header{
 
 /* Acima é tudo sobre o header*/
 
+.container-nav{
+    background-color: #629bd3;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-container a{
+    text-decoration: none;
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+}
+
+.nav-container{
+    width: 100%'';
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.left75{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.left75 input{
+    width: 300px;
+}
+
+.right25{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Abaixo style do cadastro*/
+
+.container-main{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #629bd3;
+    margin-top: 50px;
+    border: 10px;
+}
+
+h1{
+    font-family: "Bowlby One SC", sans-serif;
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+input[type=text], input[type=name], input[type=user] {
+  width: 97%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password], input[type=user]:focus {
+  background-color: #ddd;
+  outline: none;
+} 
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }

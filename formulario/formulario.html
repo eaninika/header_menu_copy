@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bowlby+One+SC&family=Notable&display=swap" rel="stylesheet">
     <title>Cadastro</title>
 </head>
 <body>
@@ -37,36 +41,46 @@
         </div>
     </header>
 
+    <nav class="container-nav">
+        <div class="nav-container">
+            <div class="left75">
+            <input type="search" name="Search">
+            <a href="">MENU</a>
+            <a href="https://support.spotify.com/br-pt/article/getting-started/?ref=related">SOBRE</a>
+            </div>
+            <div class="right25">
+                <a href="formulario/formulario.html">CADASTRE-SE</a>
+            </div>
+        </div>  
+    </nav>
+
     <main class="container-main">
         <div class="col-85">
-            <form action="#">
+            <form action="action_page.php" style="border:1px solid #ccc">
+             <div class="container">
+                    <h1>CADASTRO</h1>
+                    <p>Por favor preencha esse formulário para cadastrar-se</p>
+                    <hr>
 
-                <div class="container-ficha">
-                    <div class="banana">
-                        <h2>Cadastro</h2>
-                        <label for="e-mail">E-mail: </label>
-                        <input type="email" name="e-mail" id="e-mail">
-                        <br>
-                        <label for="nome">Nome: </label>
-                        <input type="text" name="nome" id="Nome">
-                        <br>
-                        <label for="usuario">Nome de usuario: </label>
-                        <input type="text" name="usuario" id="usuario">
-                        <br>
-                        <label for="idade">Idade: </label>
-                        <input type="text" name="idade" id="idade">
-                        <label for="cep">CEP</label>
-                        <input type="text" name="cep" id="cep">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Coloque seu e-mail" name="email" required>
+
+                    <label for="text"><b>Nome</b></label>
+                    <input type="name" placeholder="Digite seu nome" name="Nome" required>
+
+                    <label for="text"><b>Nome de usuário</b></label>
+                    <input type="user" placeholder="Digite seu nome de usuário" name="Nome de usuário" required>
+
+                    <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Você está ciente dos nossos <a href="termos.html">termos de uso</a>
+                    </label>
+
+
+                    <div class="clearfix">
+                    <button type="button" class="cancelbtn">Cancelar</button>
+                    <button type="submit" class="signupbtn">Confirmar</button>
                     </div>
                 </div>
-
-                <div class="container-botao">
-                    <input type="checkbox" value="checkbox">
-                    <label for="checkbox">Você está de acordo com os <a href="termos.html">termos de uso</a> </label>
-                    <br>
-                    <input type="submit" class="btn" value="Enviar">
-                </div>
-
             </form>
         </div>
     </main>
