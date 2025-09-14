@@ -104,7 +104,7 @@ header{
 }
 
 .bloco-1{
-
+    
 }
 
 .bloco-1 img{
@@ -137,8 +137,6 @@ header{
     justify-content: center;
     display: flex;
 }
-
-
 
 .slideshow {
   max-width: 1000px;
@@ -228,14 +226,28 @@ header{
 }
 
 .podcast-main img{
-    width: 150px;
+    width: 250px;
+    margin: 10px;
+    border: 5px;
+    background-color: #629bd3;
+    padding: 10px;
+    border: 5px;
 }
 
 .podcast-main h3{
     color: #313131;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.podcast-main h3:hover{
+.podcast-main a{
+    text-decoration: none;
+    color: #313131;
+}
+
+.podcast-main a:hover{
     color: black;
 }
 

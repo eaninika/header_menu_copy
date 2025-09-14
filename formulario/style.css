@@ -82,11 +82,11 @@ header{
 /* Abaixo style do cadastro*/
 
 .container-main{
-    width: 65%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  width: 65%;
+  padding: 50px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 .container{
@@ -158,7 +158,71 @@ button:hover {
   display: table;
 }
 
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
+@media screen and (max-width: 300px){
+.cancelbtn, .signupbtn {
+  width: 100%;
+}
+}
+
+/* Footer */
+
+footer{
+  background: #629bd3;
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxs{
+  width: 320;
+  min-height: 150px;
+  color: black;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxs:nth-child(4){
+  width: 400px;
+}
+
+.boxs a{
+  text-decoration: none;
+  color: black;
+}
+
+.boxs ul li{
+  margin: 10px 0px;
+  list-style: none;
+}
+
+.boxs ul li a{
+  color: rgb(39, 39, 39);
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boxs ul li a:hover {
+  color: black;
+}
+
+.footer{
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.socials a{
+  text-decoration: none;
+  color: white;
+}
+
+.socials{
+  word-spacing: 10px;
+  font-size: 20px;
+  padding: 25px;
+}
