@@ -180,6 +180,7 @@ header{
   bottom: 8px;
   width: 100%;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .numbertext1, .numbertext2, .numbertext3, .numbertext4, .numbertext5 {
@@ -226,7 +227,7 @@ header{
 }
 
 .podcast-main img{
-    width: 250px;
+    width: 150px;
     margin: 10px;
     border: 5px;
     background-color: #629bd3;

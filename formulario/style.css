@@ -83,7 +83,8 @@ header{
 
 .container-main{
   width: 65%;
-  padding: 50px;
+  padding: 100px;
+  margin-left: 180px;
   display: flex;
   justify-items: center;
   align-items: center;
